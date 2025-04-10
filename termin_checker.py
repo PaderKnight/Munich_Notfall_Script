@@ -30,8 +30,8 @@ def enroll_class():
             image_found = False
 
         if a != 0 and (stop_flag.is_set() or not image_found):
-            winsound.Beep(1000, 500)  # 提示音
-            print("Enroll class script stopped.")
+            winsound.Beep(1000, 500)  
+            print("-------------got it, now!!!!!!!--------")
             break
         pyautogui.press('f5')
         time.sleep(3)
@@ -46,15 +46,15 @@ def enroll_class():
 
 def run_script():
     try:
-        # 启动enroll_class函数
+        # run enroll_class
         enroll_thread = threading.Thread(target=enroll_class)
         enroll_thread.start()
 
-        # 主线程等待用户按下空格键停止脚本
+        # wait press 1 to stop script
         print("Press 1 to stop the script.")
         keyboard.wait('1')
-        stop_flag.set()  # 设置停止标志，通知线程停止
-        enroll_thread.join()  # 等待enroll_class线程结束
+        stop_flag.set()  
+        enroll_thread.join()  
         print("Script stopped.")
     except Exception as e:
         print(f"Script terminated due to: {e}")
@@ -99,7 +99,7 @@ class ScreenCapture:
 
         img = ImageGrab.grab(bbox=(left, top, right, bottom))
         img.save("screenshot.png")
-        print("📸 Screenshot saved as 'Weiter_knopf.png'")
+        print("📸 Screenshot saved as 'screenshot.png'")
 
     def run(self):
         self.root.mainloop()
