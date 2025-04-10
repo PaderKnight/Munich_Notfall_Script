@@ -1,7 +1,3 @@
-Below is the optimized README text with clear differentiation between the two modes—API monitoring (tracker) and automated mouse clicking—and updated with an energetic, clear style:
-
----
-
 # 🚨 Munich Notfall Termin Sniper – Dual-Mode Auto Appointment Alert
 
 --10.04.2025--
