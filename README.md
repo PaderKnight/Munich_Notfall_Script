@@ -33,7 +33,7 @@ Say goodbye to sleepless screen-watching—when a Termin appears, a beep alerts 
    pip install -r requirements.txt
    ```
 
-2. **Run the API Monitoring Script (Tracker):**  
+2. **Run the API Monitoring Script (Tracker):**  (not necessary)
    ```bash
    python termin_tracker.py
    ```  
