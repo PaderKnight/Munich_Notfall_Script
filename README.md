@@ -1,59 +1,85 @@
-# 🚨 Munich Notfall Termin Sniper · Auto Reminder Bot
+Below is the optimized README text with clear differentiation between the two modes—API monitoring (tracker) and automated mouse clicking—and updated with an energetic, clear style:
+
+---
+
+# 🚨 Munich Notfall Termin Sniper – Dual-Mode Auto Appointment Alert
 
 --10.04.2025--
 
-✨ **Still refreshing the Ausländerbehörde website over and over? With this, you’ll *actually* get that Notfall Termin!**  
-No more staring at the screen all day — **the moment a Termin appears, it plays a sound to alert you! Just click and book.**
+✨ **Tired of endlessly refreshing the Ausländerbehörde website? It’s time to upgrade – grab that Notfall Termin with automation!**  
+Say goodbye to sleepless screen-watching—when a Termin appears, a beep alerts you instantly. Then, jump in manually to secure it!
 
 ---
 
 ## 💡 Why You'll Love It
 
-🎯 **Real-time Monitoring** – refresh the Munich Notfall Termin page, detects when a Termin appears  
-🔔 **Instant Alert Sound** – Plays a system sound the *second* a slot shows up  
-🙋 **Manual Confirmation = Safe & Reliable** – Automation to help you, without taking risks  
-🪄 **Simple & Lightweight** – Easy setup with Python, start running in minutes
+- **Real-Time API Monitoring (Tracker):**  
+  Automatically checks for available appointments via the API in the background, alerting you with a sound as soon as a slot opens.
+
+- **Automated Mouse Click Refresh:**  
+  Especially effective for the early morning rush, this script automatically clicks and refreshes the Termin page. With enough practice, you can consistently secure your appointment every day.
+
+- **Instant Alert Sound:**  
+  The moment a Termin appears, you’ll hear a beep, ensuring you never miss your chance.
+
+- **Manual Confirmation for Safety:**  
+  Both methods only alert you—booking remains a manual process to keep everything safe, compliant, and under your control.
+
+- **Simple & Lightweight Setup:**  
+  Easy-to-use Python scripts that run quickly and efficiently, so you can set them up in minutes.
 
 ---
 
 ## 🛠️ How to Use
 
-1. Install the required dependencies:
+1. **Install Dependencies:**  
    ```bash
    pip install -r requirements.txt
    ```
 
-2. Run the script:
+2. **Run the API Monitoring Script (Tracker):**  
+   ```bash
+   python termin_tracker.py
+   ```  
+   This script continuously checks available appointments via the API and alerts you when one is found.
+
+3. **Run the Automated Mouse Click Refresh Script:**  
    ```bash
    python termin_checker.py
-   ```
-
-3. Let it run in the background — as soon as a Termin appears, you’ll hear a sound. Jump in and book it manually!
+   ```  
+   Ideal for those critical early morning slots, this script automates the refresh and click actions. When paired with manual confirmation, it’s a game changer in securing your Termin.
 
 ---
 
-## 📌 Notes
+## 📌 Important Notes
 
-- This script **does NOT auto-fill or auto-submit** — it only alerts you when a Termin is available.  
-- This keeps it **safe, compliant, and highly effective**  
-- Be ready to act fast when you hear the beep — every second counts!
+- **No Auto-Submission:**  
+  Both scripts only alert you about the available Termin. Final booking must be done manually.
+
+- **Safety & Compliance:**  
+  The manual confirmation approach keeps you in control, ensuring that the process remains safe and compliant with rules.
+
+- **Time-Sensitive:**  
+  Once you hear the beep, be ready to act fast—every second counts!
 
 ---
 
 ## 👀 Who Needs This?
 
-- Anyone urgently trying to book a Notfall appointment in Munich  
-- Students, expats, or anyone fed up with refreshing 100 times a day  
-- People who want a smart, safe way to boost their chances
+- Anyone urgently trying to book a Notfall appointment in Munich.
+- Students, expats, or anyone frustrated by endless page refreshing.
+- Anyone looking for a smart, safe way to enhance their chances using a dual-method approach.
 
 ---
+
 > “This script literally saved my life. Finally got my Termin!”  
+
 ---
 
 ## ❤️ Open Source & Ethical Use
 
-This project is intended **for educational and productivity purposes only**.  
-Please **don’t use it to break platform rules or abuse the system**.  
-Star ⭐ the repo, fork it, or customize for your needs!
+This project is intended **for educational and productivity purposes only.**  
+Please **don’t use it to break platform rules or abuse the system.**  
+Star ⭐ the repository, fork it, or customize it to suit your needs!
 
 ---
