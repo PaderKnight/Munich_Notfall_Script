@@ -9,7 +9,7 @@ No more staring at the screen all day — **the moment a Termin appears, it play
 
 ## 💡 Why You'll Love It
 
-🎯 **Real-time Monitoring** – 24/7 scans the Munich Notfall Termin page, detects when a Termin appears  
+🎯 **Real-time Monitoring** – refresh the Munich Notfall Termin page, detects when a Termin appears  
 🔔 **Instant Alert Sound** – Plays a system sound the *second* a slot shows up  
 🙋 **Manual Confirmation = Safe & Reliable** – Automation to help you, without taking risks  
 🪄 **Simple & Lightweight** – Easy setup with Python, start running in minutes
