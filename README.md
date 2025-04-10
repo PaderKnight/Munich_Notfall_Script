@@ -1,5 +1,7 @@
 # 🚨 Munich Notfall Termin Sniper · Auto Reminder Bot
 
+--10.04.2025--
+
 ✨ **Still refreshing the Ausländerbehörde website over and over? With this, you’ll *actually* get that Notfall Termin!**  
 No more staring at the screen all day — **the moment a Termin appears, it plays a sound to alert you! Just click and book.**
 
@@ -45,13 +47,7 @@ No more staring at the screen all day — **the moment a Termin appears, it play
 - People who want a smart, safe way to boost their chances
 
 ---
-
-## 💥 Viral RED-style Comments
-
-> “This script literally changed my life. Finally got my Termin!”  
-> “No more camping the website all night. It beeps, I click, done.”  
-> “If you’re in Munich and struggling with appointments — you NEED this.”
-
+> “This script literally saved my life. Finally got my Termin!”  
 ---
 
 ## ❤️ Open Source & Ethical Use
